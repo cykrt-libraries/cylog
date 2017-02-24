@@ -12,7 +12,8 @@ A python-like logging moudle in C++
 * Log level can be customized
 
 ## Usage
-Here is a simple example.
+Here is a simple example.  
+
     #include "logging.hpp"
     int main(){
         cylib::Logger logger(DEBUG, "log.txt", "w+");
